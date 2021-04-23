@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EasyDzongkhaApp</string>
+    <string name="opennavdrawer">Open Navigation Drawer</string>
+    <string name="closenavdrawer">Close Navigation Drawer</string>
+    <string name="cat1">མཐུན་སྒྲིག།</string>
+    <string name="cat2">ཡིག་སྡེབ་བསྒྲིག་ནི།</string>
+    <string name="cat3">ཡིག་སྡེབ་བྲི་ནི།</string>
+    <string name="cat4">ཨང་རྩིག་རིག་པ།</string>
+    <string name="share">རིམ་ལུགས་སྤེལ།</string>
+    <string name="rate">སྐུགས་བྱིན།</string>
+    <string name="feedback">བསམ་འཆར།</string>
+    <string name="about">རིམ་ལུགས་ཀྱི་སྐོར།</string>
+    <string name="exit">སྡམས།</string>
+</resources>
