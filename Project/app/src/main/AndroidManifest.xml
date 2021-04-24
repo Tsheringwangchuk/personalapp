@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
-        <activity android:name=".Math"></activity>
+        <activity android:name=".Developer_page"></activity>
+        <activity android:name=".startadding" />
+        <activity android:name=".MatchingLevel1" />
+        <activity android:name=".Math" />
         <activity android:name=".spelling" />
         <activity android:name=".draganddrop" />
         <activity android:name=".Matching" />

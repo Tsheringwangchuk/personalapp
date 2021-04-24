@@ -11,4 +11,23 @@
     <string name="feedback">བསམ་འཆར།</string>
     <string name="about">རིམ་ལུགས་ཀྱི་སྐོར།</string>
     <string name="exit">སྡམས།</string>
+    <string name="number">ཨང</string>
+    <string name="add">བསྡོམས་རྩིས</string>
+    <string name="subtract">ཕབ་རྩིས</string>
+    <string name="multiply">སྒྱུར་རྩིས</string>
+    <string name="divide">བགོ་རྩིས</string>
+    <string name="developer">
+        འགྲུལ་འཕྲིན་རིམ་ལུགས་འདི་གིས་ མཐུན་སྒྲིག་ ཡིག་སྡེབ་བསྒྲིག་ནི་ ཡིག་སྡེབ་བྲི་ནི་དང་ཨང་རྩིག་རིག་པ་ཚུ་ དབྱེ་ཁག་བཞི་ནང་བགོ་ཡོད། རིམ་ལུགས་འདི་གི་ རྫོང་ཁ་ཡར་རྒྱས་བཏང་ནི་ལུ་ཕན་ཐོག།
+    </string>
+    <string name="collegedetials">
+        རྒྱལ་པོའི་ཞིང་བརྡ་དོན་འཕྲུལ་རིགས་མཐོ་རིམ་སློབ་གྲྭ།<br/>
+        ༡༽ བསོན་ནམས་ ཆོས་སྐྱིད།<br/>
+        ༢༽ བསོན་ནམས་ དོན་གྲུབ།(sdendup2017@gmail.com)<br/>
+        ༣༽ འཕྲིན་ལས་ དབང་མོ།<br/>
+        ༤༽ ཚེ་རིང་ དབང་ཕྱུག།(humblewangs777@gmail.com)<br/>
+    </string>
+    <string name="developerdetial">
+
+    </string>
+
 </resources>
