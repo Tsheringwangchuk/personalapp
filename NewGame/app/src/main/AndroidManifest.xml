@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.gcit.newgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewGame">
+        <activity android:name=".multiplication_question"></activity>
+        <activity android:name=".multiplicationlevel" />
+        <activity android:name=".division_question" />
+        <activity android:name=".divisionlevel" />
+        <activity android:name=".subtraction_question" />
+        <activity android:name=".subtractionlevel" />
+        <activity android:name=".addition_question" />
+        <activity android:name=".additionlevel" />
+        <activity android:name=".SpellingQuestion" />
+        <activity android:name=".SpellingLevel" />
+        <activity android:name=".Sub_Category" />
+        <activity android:name=".PlayScreen" />
+        <activity android:name=".Result" />
+        <activity android:name=".MainQuestion" />
+        <activity android:name=".Catonelevel" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
