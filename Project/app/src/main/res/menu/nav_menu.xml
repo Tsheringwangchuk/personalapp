@@ -10,7 +10,7 @@
         android:title="@string/rate"
         android:icon="@drawable/ic_rate"/>
     <item
-        android:id="@+id/feedbasck"
+        android:id="@+id/feedback"
         android:title="@string/feedback"
         android:icon="@drawable/ic_feedback"/>
 </group>

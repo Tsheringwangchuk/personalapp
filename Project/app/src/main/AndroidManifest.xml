@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
-        <activity android:name=".Developer_page"></activity>
-        <activity android:name=".startadding" />
+        <activity android:name=".Mainfeedback"></activity>
+        <activity android:name=".Developer_page" android:theme="@style/Theme.Project.NoActionBar" />
         <activity android:name=".MatchingLevel1" />
-        <activity android:name=".Math" />
         <activity android:name=".spelling" />
         <activity android:name=".draganddrop" />
         <activity android:name=".Matching" />
@@ -25,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:theme="@style/Theme.Project.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

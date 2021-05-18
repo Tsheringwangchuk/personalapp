@@ -85,6 +85,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details/?id="+getPackageName())));
                 }
+                break;
+
+            case R.id.feedback:
+                try
+                {
+                    Intent feedback = new Intent(this, Mainfeedback.class);
+                    startActivity(feedback);
+                }
+                catch (Exception e)
+                {
+                    Log.d("Msg:","It is not working");
+                }
+                break;
+
             case R.id.about:
                 try
                 {
@@ -95,11 +109,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 {
                     Log.d("Msg:","It is not working");
                 }
+                break;
+
+            case R.id.exit:
+                try
+                {
+                   finish();
+                    //System system;
+                    System.exit(0);
+                }
+                catch (Exception r)
+                {
+                    Log.d("Msg:","It is not working");
+                }
+                break;
         }
-
-
-
-
         return true;
     }
 
@@ -128,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     //redirect to math page
     public void mathpage(View view) {
         mathsound.start();
-        Intent maths = new Intent(MainActivity.this, Math.class);
-        startActivity(maths);
+        //Intent maths = new Intent(MainActivity.this, Math.class);
+        //startActivity(maths);
     }
 }
