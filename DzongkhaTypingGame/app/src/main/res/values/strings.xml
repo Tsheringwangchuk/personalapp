@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dzongkha Typing Game</string>
+    <string name="header1">རྫོང་ཁ་མཛུབ་རྐྱབ་ནའི་རྩེདམོ།</string>
+    <string name="color">ཚོག་གཞི</string>
+    <string name="tech">མཁོ་མཆེ་བའི་གློག་འཕྲུལ</string>
+    <string name="hint">ཡིག་སྡེབ་འབྲི་གནང་་་་་</string>
+</resources>
